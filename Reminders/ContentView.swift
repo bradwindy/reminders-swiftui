@@ -9,8 +9,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    @Environment(\.managedObjectContext) var moc
+    @FetchRequest(entity: Reminder.entity(), sortDescriptors: []) var reminders: FetchedResults<Reminder>
+    @State private var showingAddScreen = false
+    
     var body: some View {
-        Text("Hello, World!")
+        NavigationView {
+             Text("Reminder Count: \(reminders.count)")
+                .navigationBarTitle("Reminders")
+                .navigationBarItems(trailing:
+                    Button(action: {
+                        self.showingAddScreen.toggle()
+                    }){
+                        Image(systemName: "plus")
+                    }
+                )
+                .sheet(isPresented: $showingAddScreen) {
+                    AddReminderView().environment(\.managedObjectContext, self.moc)
+                }
+        }
     }
 }
 

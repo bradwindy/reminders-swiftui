@@ -14,6 +14,7 @@
 		691F821023A9B02600A40C3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 691F820F23A9B02600A40C3E /* Assets.xcassets */; };
 		691F821323A9B02600A40C3E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 691F821223A9B02600A40C3E /* Preview Assets.xcassets */; };
 		691F821623A9B02600A40C3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 691F821423A9B02600A40C3E /* LaunchScreen.storyboard */; };
+		691F821E23A9C07500A40C3E /* AddReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691F821D23A9C07500A40C3E /* AddReminderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		691F821223A9B02600A40C3E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		691F821523A9B02600A40C3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		691F821723A9B02600A40C3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		691F821D23A9C07500A40C3E /* AddReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReminderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				691F821423A9B02600A40C3E /* LaunchScreen.storyboard */,
 				691F821723A9B02600A40C3E /* Info.plist */,
 				691F820A23A9B02300A40C3E /* Reminders.xcdatamodeld */,
+				691F821D23A9C07500A40C3E /* AddReminderView.swift */,
 				691F821123A9B02600A40C3E /* Preview Content */,
 			);
 			path = Reminders;
@@ -152,6 +155,7 @@
 				691F820723A9B02300A40C3E /* AppDelegate.swift in Sources */,
 				691F820C23A9B02300A40C3E /* Reminders.xcdatamodeld in Sources */,
 				691F820E23A9B02300A40C3E /* ContentView.swift in Sources */,
+				691F821E23A9C07500A40C3E /* AddReminderView.swift in Sources */,
 				691F820923A9B02300A40C3E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

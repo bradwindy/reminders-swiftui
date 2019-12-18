@@ -3,5 +3,5 @@
 ## About
 A reminder project using SwiftUI
 
-## Licence
-GPLv3. See LICENCE file for details
+## License
+GPLv3. See LICENSE file for details
